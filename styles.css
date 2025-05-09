@@ -1,0 +1,123 @@
+:root {
+    --beige: #f5f5dc;
+    --mozzarella-white: #fff9e6;
+    --brown: #8b4513;
+    --dark-brown: #5d2e0a;
+    --light-brown: #a67c52;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--mozzarella-white);
+    color: var(--dark-brown);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    padding: 20px 0;
+    border-bottom: 2px solid var(--light-brown);
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--dark-brown);
+}
+
+.logo-initial {
+    color: var(--brown);
+    font-size: 2.2rem;
+}
+
+.content-box {
+    background-color: var(--beige);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(139, 69, 19, 0.1);
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: var(--brown);
+    margin-top: 0;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+button {
+    background-color: var(--brown);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: var(--dark-brown);
+    transform: translateY(-2px);
+}
+
+.special-box {
+    background-color: var(--mozzarella-white);
+    padding: 20px;
+    border: 1px dashed var(--brown);
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.special-box i {
+    color: var(--brown);
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.color-display {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.5s ease;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: var(--light-brown);
+    font-size: 0.9rem;
+}
+
+.dynamic-style {
+    background-color: var(--dark-brown);
+    color: var(--mozzarella-white);
+    padding: 20px;
+    border-radius: 10px;
+    transform: rotate(1deg);
+}
+
+.dynamic-style h1 {
+    color: var(--beige);
+    text-decoration: underline;
+}
